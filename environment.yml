@@ -1,0 +1,12 @@
+name: tensors
+channels:
+- defaults
+dependencies:
+- matplotlib
+- numpy
+- pandas
+- python=3.6
+- scikit-learn
+- seaborn
+- pip:
+  - tensorly
